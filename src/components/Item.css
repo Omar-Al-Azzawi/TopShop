@@ -1,0 +1,30 @@
+.item_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 90px 50px;
+}
+img {
+  width: 450px;
+  margin: 4rem 4rem;
+  /*   border: 1px solid #999; */
+  border-radius: 12px;
+}
+.item_content {
+  margin-top: 4rem;
+}
+.item_content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.item_content p {
+  width: 400px;
+  font-size: large;
+  line-height: 1.5rem;
+  color: rgb(97, 97, 97);
+  margin-bottom: 20px;
+}
+.rating_container {
+  /*  display: flex;
+    align-items: flex-start;
+    justify-content: flex-start; */
+}
