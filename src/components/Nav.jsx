@@ -1,13 +1,18 @@
 import "./Nav.css";
 import { useContext } from "react";
 import CartContext from "../Context/Cart/CartContext";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
   const { cartItem, showHideCart } = useContext(CartContext);
 
   return (
     <nav>
-      <div className="nav__left">TopShop</div>
+      <div className="nav__left">
+        <Link to="/">
+          <h3>TopShop</h3>
+        </Link>
+      </div>
       <div className="nav__middle">
         <div className="input__wrapper">
           <input type="text" />

@@ -18,6 +18,13 @@ nav {
   font-weight: 600;
   font-size: 2rem;
 }
+.nav__left h3 {
+}
+.nav__left a {
+  color: antiquewhite;
+}
+.nav__left h3:hover {
+}
 
 .nav__middle {
   color: gray;

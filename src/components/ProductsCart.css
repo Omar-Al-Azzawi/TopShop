@@ -5,11 +5,13 @@
   border-radius: 12px;
   margin: auto;
   word-wrap: break-word;
-  height: 530px;
+  height: 500px;
   background-color: #fff;
 }
 .productCard__wrapper h4 {
   color: #8e8d8a;
+  height: 20px;
+  overflow: hidden;
 }
 .productCard__img {
   flex-shrink: 1;
@@ -26,6 +28,9 @@
 }
 
 .ProductCard__button {
+  width: 120px;
+  margin-left: 10px;
+  margin-top: 10px;
   padding: 6px 10px;
   cursor: pointer;
   border-radius: 25px;
@@ -42,6 +47,7 @@
   color: white;
   background-color: #e85a4f;
   transform: translateY(-2px);
+  box-shadow: 0 5px 15px #999;
 }
 
 .ProductCard__button:focus,

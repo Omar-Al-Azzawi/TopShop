@@ -20,7 +20,7 @@ function ProductsCart({ item }) {
           <Rating value={item.rating.rate} />
         </div>
         <button className="ProductCard__button" onClick={() => addToCart(item)}>
-          Add to cart
+          Add to cart <i className="fa fa-shopping-cart"></i>
         </button>
       </div>
     </div>
