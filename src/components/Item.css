@@ -6,7 +6,6 @@
 img {
   width: 450px;
   margin: 4rem 4rem;
-  /*   border: 1px solid #999; */
   border-radius: 12px;
 }
 .item_content {
@@ -23,8 +22,31 @@ img {
   color: rgb(97, 97, 97);
   margin-bottom: 20px;
 }
-.rating_container {
-  /*  display: flex;
-    align-items: flex-start;
-    justify-content: flex-start; */
+
+@media screen and (max-width: 700px) {
+  .item_container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 90px 50px;
+  }
+  img {
+    width: 250px;
+    margin: 2rem 6rem 0;
+    border-radius: 12px;
+  }
+  .item_content h2 {
+    width: 300px;
+    font-size: 1.5rem;
+    margin-left: 60px;
+  }
+  .item_content p {
+    width: 300px;
+    font-size: large;
+    line-height: 1.5rem;
+    color: rgb(97, 97, 97);
+    margin-left: 60px;
+  }
+  .rate {
+    margin-left: 60px;
+  }
 }

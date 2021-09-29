@@ -27,7 +27,7 @@ function Item() {
                 <p>{item.description}</p>
                 <div className="rating_container">
                   <p>€{item.price}</p>
-                  <Rating value={item.rating.rate} />
+                  <Rating className="rate" value={item.rating.rate} />
                   <p>{item.rating.count} pes</p>
                 </div>
               </div>
