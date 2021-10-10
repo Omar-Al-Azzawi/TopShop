@@ -38,6 +38,14 @@ function Item() {
                   >
                     Add to cart <i className="fa fa-shopping-cart"></i>
                   </button>
+                  <button
+                    className="ProductCard__button"
+                    onClick={() => {
+                      window.history.back();
+                    }}
+                  >
+                    Back
+                  </button>
                 </div>
               </div>
             </div>

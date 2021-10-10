@@ -10,9 +10,20 @@ function HomeScreen() {
       .then((data) => setItems(data));
   }, []);
   return (
-    <div className="products__wrapper">
-      {items && items.map((item) => <ProductsCart key={item.id} item={item} />)}
-    </div>
+    <>
+      <div className="products__wrapper">
+        {items &&
+          items.map((item) => <ProductsCart key={item.id} item={item} />)}
+      </div>
+      <button
+        className="ProductCard__button"
+        onClick={() => {
+          window.scrollTo({ left: 0, top: 0, behavior: "smooth" });
+        }}
+      >
+        Go up <i class="fas fa-chevron-up"></i>
+      </button>
+    </>
   );
 }
 
