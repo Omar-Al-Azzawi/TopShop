@@ -22,6 +22,10 @@ nav {
 }
 .nav__left a {
   color: antiquewhite;
+  transition: all 300ms ease-in-out;
+}
+.nav__left a:hover {
+  color: snow;
 }
 .nav__left h3:hover {
 }

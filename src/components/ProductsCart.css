@@ -21,10 +21,10 @@
 }
 
 .ProductCard__Rateing {
-  margin: 20px 0;
+  margin: 20px 15px;
 }
 .ProductCard__price {
-  margin: 20px 0;
+  margin: 20px 15px;
 }
 
 .ProductCard__button {
