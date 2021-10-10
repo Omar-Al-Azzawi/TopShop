@@ -11,7 +11,7 @@ const CartItem = ({ item }) => {
       <div>
         {item.title} {item.price}
       </div>
-      <button className="CartItem__button" onClick={() => removeItem(item._id)}>
+      <button className="CartItem__button" onClick={() => removeItem(item.id)}>
         Remove
       </button>
     </li>

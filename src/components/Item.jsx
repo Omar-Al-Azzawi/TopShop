@@ -44,7 +44,7 @@ function Item() {
                       window.history.back();
                     }}
                   >
-                    Back
+                    Go back <i class="fas fa-chevron-left"></i>
                   </button>
                 </div>
               </div>
