@@ -27,23 +27,28 @@ img {
   .item_container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    margin: 90px 50px;
+    margin: 80px auto;
+  }
+  .item_content {
+    margin-top: 0rem;
   }
   img {
     width: 250px;
-    margin: 2rem 6rem 0;
     border-radius: 12px;
   }
   .item_content h2 {
     width: 300px;
     font-size: 1.5rem;
-    margin-left: 60px;
+    margin-left: 40px;
   }
   .item_content p {
     width: 300px;
     font-size: large;
     line-height: 1.5rem;
     color: rgb(97, 97, 97);
+    margin-left: 40px;
+  }
+  .rating_container {
     margin-left: 60px;
   }
   .rate {

@@ -29,8 +29,8 @@ function Item() {
                 <h2>{item.title}</h2>
                 <p>{item.description}</p>
                 <div className="rating_container">
-                  <p>€{item.price}</p>
-                  <Rating className="rate" value={item.rating.rate} />
+                  <p className="rate">€{item.price}</p>
+                  <Rating value={item.rating.rate} />
                   <p>{item.rating.count} pes</p>
                   <button
                     className="ProductCard__button"
@@ -44,7 +44,7 @@ function Item() {
                       window.history.back();
                     }}
                   >
-                    Go back <i class="fas fa-chevron-left"></i>
+                    Go back <i className="fas fa-chevron-left"></i>
                   </button>
                 </div>
               </div>

@@ -21,7 +21,7 @@ function HomeScreen() {
           window.scrollTo({ left: 0, top: 0, behavior: "smooth" });
         }}
       >
-        Go up <i class="fas fa-chevron-up"></i>
+        Go up <i className="fas fa-chevron-up"></i>
       </button>
     </>
   );

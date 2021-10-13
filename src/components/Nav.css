@@ -30,13 +30,7 @@ nav {
 }
 .nav__left h3:hover {
 }
-
-.nav__middle {
-  color: gray;
-
-  flex: 1;
-}
-
+/* 
 .input__wrapper {
   display: flex;
   align-items: center;
@@ -57,7 +51,7 @@ nav {
 input:active {
   outline: none;
 }
-
+ */
 .nav__right {
   flex: 1;
 }
