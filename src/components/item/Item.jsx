@@ -1,8 +1,10 @@
 import React, { useState, useEffect, useContext } from "react";
-import "./Item.css";
 import { useParams } from "react-router-dom";
-import Rating from "./Rating";
-import CartContext from "../Context/Cart/CartContext";
+
+import Rating from "../rating/Rating";
+import CartContext from "../../Context/Cart/CartContext";
+
+import "./Item.css";
 
 function Item() {
   const { id } = useParams();
@@ -14,6 +16,7 @@ function Item() {
       .then((res) => res.json())
       .then((data) => setItems(data));
   }, []);
+
   return (
     <div>
       {items &&

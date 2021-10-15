@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
+import ProductsCart from "../components/products/ProductsCart";
+
 import "./HomeScreen.css";
-import ProductsCart from "../components/ProductsCart";
 
 function HomeScreen() {
   const [items, setItems] = useState("");
