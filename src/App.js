@@ -1,9 +1,9 @@
 import "./App.css";
 import HomeScreen from "./screens/HomeScreen";
-import Nav from "./components/Nav";
-import Cart from "./components/Cart";
-import Item from "./components/Item";
-import Footer from "./components/Footer";
+import Nav from "./components/nav/Nav";
+import Cart from "./components/cart-component/Cart";
+import Item from "./components/item/Item";
+import Footer from "./components/footer/Footer";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {

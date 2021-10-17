@@ -30,7 +30,7 @@ nav {
 }
 .nav__left h3:hover {
 }
-/* 
+
 .input__wrapper {
   display: flex;
   align-items: center;
@@ -51,7 +51,7 @@ nav {
 input:active {
   outline: none;
 }
- */
+
 .nav__right {
   flex: 1;
 }
