@@ -6,3 +6,12 @@
   margin: 150px auto;
   gap: 12px;
 }
+.search input {
+  width: 40%;
+  padding: 0.5rem 1rem;
+  display: flex;
+  margin-top: 8rem;
+  border: 1px solid #000;
+  border-radius: 10px;
+  outline: none;
+}
