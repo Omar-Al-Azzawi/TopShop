@@ -8,7 +8,7 @@ const CartItem = ({ item }) => {
 
   return (
     <li className="CartItem__item">
-      <img src={item.image} alt="" />
+      <img src={item.image} alt={item.name} />
       <div>
         {item.title} {item.price}
       </div>
